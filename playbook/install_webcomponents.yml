@@ -1,0 +1,10 @@
+---
+  - hosts: ec2
+    become: yes
+    tasks:
+      - name: install webcomponents
+        apt: name={{item}} state=present update_cache=yes
+        with_items:
+         - nginx
+         - postgresql
+         - postgresql-contrib

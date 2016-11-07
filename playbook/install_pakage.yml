@@ -1,0 +1,6 @@
+---
+  - hosts: ec2
+    become: yes
+    tasks:
+     - name: INstall git pakage
+       apt: name=git state=present update_cache=yes

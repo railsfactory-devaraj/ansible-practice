@@ -1,0 +1,7 @@
+---
+  - hosts: ec2
+    tasks:
+      - name: print the host name
+        command: hostname
+      - name: create new directory
+        command: mkdir Test1 state=directory 

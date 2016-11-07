@@ -1,0 +1,315 @@
+2016-11-05 13:41:13,806 p=7939 u=deva |  192.168.1.23 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-11-05 13:41:21,334 p=7960 u=deva |  Using /home/deva/git/ansible_training/ansible/ansible.cfg as config file
+2016-11-05 13:41:21,371 p=7960 u=deva |  Loading callback plugin minimal of type stdout, v2.0 from /usr/lib/python2.7/dist-packages/ansible/plugins/callback/__init__.pyc
+2016-11-05 13:41:21,536 p=7960 u=deva |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/core/system/ping.py
+2016-11-05 13:41:22,045 p=7960 u=deva |  192.168.1.23 | SUCCESS => {
+    "changed": false, 
+    "invocation": {
+        "module_args": {
+            "data": null
+        }, 
+        "module_name": "ping"
+    }, 
+    "ping": "pong"
+}
+2016-11-05 13:42:29,872 p=7983 u=deva |  ERROR! Missing target hosts
+2016-11-05 13:42:41,124 p=7986 u=deva |  Using /home/deva/git/ansible_training/ansible/ansible.cfg as config file
+2016-11-05 13:42:41,162 p=7986 u=deva |  Loading callback plugin minimal of type stdout, v2.0 from /usr/lib/python2.7/dist-packages/ansible/plugins/callback/__init__.pyc
+2016-11-05 13:42:41,326 p=7986 u=deva |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/core/commands/command.py
+2016-11-05 13:42:42,944 p=7986 u=deva |  192.168.1.23 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-11-05 13:43:07,080 p=8007 u=deva |  Using /home/deva/git/ansible_training/ansible/ansible.cfg as config file
+2016-11-05 13:43:07,118 p=8007 u=deva |  Loading callback plugin minimal of type stdout, v2.0 from /usr/lib/python2.7/dist-packages/ansible/plugins/callback/__init__.pyc
+2016-11-05 13:43:07,287 p=8007 u=deva |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/core/commands/command.py
+2016-11-05 13:43:07,896 p=8007 u=deva |  192.168.1.23 | SUCCESS | rc=0 >>
+total 1839832
+drwxr-xr-x+ 47 dhanu  staff       1598 Nov  5 13:38 .
+drwxr-xr-x   7 root   admin        238 Oct  6 17:42 ..
+drwx------   3 dhanu  staff        102 Nov  5 07:11 .Trash
+drwx------   4 dhanu  staff        136 Nov  5 13:11 .ansible
+-rw-------   1 dhanu  staff       1498 Nov  5 13:43 .bash_history
+drwxr-xr-x   3 dhanu  staff        102 Jun  9 11:24 .local
+drwxr-xr-x   2 dhanu  staff         68 Oct 26 06:59 .matplotlib
+-rw-------   1 dhanu  staff        212 Jun  9 11:25 .netrc
+drwxr-xr-x   3 dhanu  staff        102 Jun 17 17:12 .oracle_jre_usage
+drwx------   3 dhanu  staff        102 May 26 16:13 .putty
+drwx------   7 dhanu  staff        238 Nov  5 13:38 .ssh
+drwxr-xr-x   6 dhanu  staff        204 Jul  3 12:32 .subversion
+lrwxr-xr-x   1 dhanu  staff         39 May  5  2016 .tmux.conf -> /Users/dhanu/.dotfiles/linked/tmux.conf
+lrwxr-xr-x   1 dhanu  staff         39 May  5  2016 .tmux.conf_bak -> /Users/dhanu/.dotfiles/linked/tmux.conf
+drwxr-xr-x   4 dhanu  staff        136 Oct 28 21:36 .vim
+-rw-------   1 dhanu  staff      17181 Nov  5 13:38 .viminfo
+lrwxr-xr-x   1 dhanu  staff         35 May  5  2016 .vimrc -> /Users/dhanu/.dotfiles/linked/vimrc
+lrwxr-xr-x   1 dhanu  staff         43 May  5  2016 .vimrc.bundles -> /Users/dhanu/.dotfiles/linked/vimrc.bundles
+lrwxr-xr-x   1 dhanu  staff         43 May  5  2016 .vimrc.bundles_bak -> /Users/dhanu/.dotfiles/linked/vimrc.bundles
+lrwxr-xr-x   1 dhanu  staff         35 May  5  2016 .vimrc_bak -> /Users/dhanu/.dotfiles/linked/vimrc
+-rw-r--r--   1 dhanu  staff        209 Oct 22 00:23 .wget-hsts
+-rw-r--r--   1 dhanu  staff      38389 May  5  2016 .zcompdump
+-rw-------   1 dhanu  staff         39 May  5  2016 .zsh_history
+lrwxr-xr-x   1 dhanu  staff         40 May  5  2016 .zshrc -> /Users/dhanu/.dotfiles/zsh/zshrc.symlink
+drwx------   5 dhanu  staff        170 Jun  4 11:02 Applications
+drwx------+ 13 dhanu  staff        442 Nov  4 15:23 Desktop
+drwx------+ 11 dhanu  staff        374 Oct 19 20:12 Documents
+drwx------+ 63 dhanu  staff       2142 Nov  4 00:12 Downloads
+drwxr-xr-x   2 dhanu  staff         68 Aug 17 15:56 IdeaProjects
+drwx------@ 65 dhanu  staff       2210 Oct 19 20:10 Library
+drwx------+  6 dhanu  staff        204 May 27 11:38 Movies
+drwx------+  7 dhanu  staff        238 Oct 19 20:16 Music
+drwx------+ 43 dhanu  staff       1462 Sep 20 00:33 Pictures
+drwxr-xr-x+  5 dhanu  staff        170 Apr 14  2016 Public
+drwxr-xr-x   3 dhanu  staff        102 Oct 28 19:38 PycharmProjects
+drwxr-xr-x   3 dhanu  staff        102 Oct 20 13:31 VirtualBox VMs
+drwxr-xr-x   7 dhanu  staff        238 Oct 31 15:35 ansible-aws-examples
+drwxr-xr-x   6 dhanu  staff        204 Nov  2 18:52 ansible4aws
+drwxr-xr-x   6 dhanu  staff        204 Nov  5 13:14 ansible_training
+drwxr-xr-x   6 dhanu  staff        204 Oct 28 23:12 ansible_work
+drwxr-xr-x   3 dhanu  staff        102 Oct  5 13:16 docker-work
+drwxr-xr-x   7 dhanu  staff        238 Oct  3 12:00 sedin
+-rw-r--r--   1 dhanu  staff  534261760 Nov  3 12:31 shared.tar
+drwxr-xr-x   4 dhanu  staff        136 Nov  1 12:59 sourzez
+-rw-r--r--   1 dhanu  staff        714 Oct 21 19:05 two.py
+-rw-r--r--   1 dhanu  staff      93580 Oct 22 00:23 v1.77.tar.gz
+-rw-r--r--   1 dhanu  staff  407527371 Nov  2 19:54 xconnect_new_prod_02_11_2016.sql
+
+2016-11-05 14:38:21,488 p=8770 u=deva |  Using /home/deva/git/ansible_training/ansible/ansible.cfg as config file
+2016-11-05 14:38:29,907 p=8770 u=deva |  54.148.238.107 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-11-05 14:38:45,353 p=8797 u=deva |  ERROR! Extranous options or arguments
+2016-11-05 14:38:57,899 p=8800 u=deva |  Using /home/deva/git/ansible_training/ansible/ansible.cfg as config file
+2016-11-05 14:39:03,294 p=8800 u=deva |  54.148.238.107 | SUCCESS | rc=0 >>
+/home/ubuntu
+
+2016-11-05 14:40:01,452 p=8831 u=deva |  54.148.238.107 | SUCCESS | rc=0 >>
+
+
+2016-11-05 14:40:05,474 p=8867 u=deva |  Using /home/deva/git/ansible_training/ansible/ansible.cfg as config file
+2016-11-05 14:40:10,673 p=8867 u=deva |  54.148.238.107 | SUCCESS | rc=0 >>
+/home/ubuntu
+
+2016-11-05 14:40:18,743 p=8885 u=deva |  Using /home/deva/git/ansible_training/ansible/ansible.cfg as config file
+2016-11-05 14:40:24,088 p=8885 u=deva |  54.148.238.107 | SUCCESS | rc=0 >>
+Devaraj
+
+2016-11-05 15:44:39,636 p=9275 u=deva |  Using /home/deva/git/ansible_training/ansible/ansible.cfg as config file
+2016-11-05 15:44:48,482 p=9275 u=deva |  54.148.238.107 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-11-05 15:44:55,514 p=9296 u=deva |  Using /home/deva/git/ansible_training/ansible/ansible.cfg as config file
+2016-11-05 15:45:00,771 p=9296 u=deva |  54.148.238.107 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-11-05 15:45:09,708 p=9313 u=deva |  Using /home/deva/git/ansible_training/ansible/ansible.cfg as config file
+2016-11-05 15:45:15,104 p=9313 u=deva |  54.148.238.107 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-11-05 15:45:31,837 p=9332 u=deva |  Using /home/deva/git/ansible_training/ansible/ansible.cfg as config file
+2016-11-05 15:45:37,321 p=9332 u=deva |  54.148.238.107 | SUCCESS | rc=0 >>
+/home/ubuntu
+
+2016-11-05 15:56:37,511 p=9520 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-05 15:56:37,531 p=9520 u=deva |  TASK [setup] *******************************************************************
+2016-11-05 15:56:49,152 p=9520 u=deva |  ok: [54.148.238.107]
+2016-11-05 15:56:49,154 p=9520 u=deva |  TASK [print the host name] *****************************************************
+2016-11-05 15:56:55,213 p=9520 u=deva |  changed: [54.148.238.107]
+2016-11-05 15:56:55,218 p=9520 u=deva |  PLAY RECAP *********************************************************************
+2016-11-05 15:56:55,219 p=9520 u=deva |  54.148.238.107             : ok=2    changed=1    unreachable=0    failed=0   
+2016-11-05 15:58:20,566 p=9591 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-05 15:58:20,583 p=9591 u=deva |  TASK [setup] *******************************************************************
+2016-11-05 15:58:29,543 p=9591 u=deva |  ok: [54.148.238.107]
+2016-11-05 15:58:29,546 p=9591 u=deva |  TASK [print the host name] *****************************************************
+2016-11-05 15:58:34,849 p=9591 u=deva |  changed: [54.148.238.107]
+2016-11-05 15:58:34,851 p=9591 u=deva |  TASK [create new directory] ****************************************************
+2016-11-05 15:58:40,077 p=9591 u=deva |  changed: [54.148.238.107]
+2016-11-05 15:58:40,079 p=9591 u=deva |   [WARNING]: Consider using file module with state=directory rather than running mkdir
+
+2016-11-05 15:58:40,082 p=9591 u=deva |  PLAY RECAP *********************************************************************
+2016-11-05 15:58:40,082 p=9591 u=deva |  54.148.238.107             : ok=3    changed=2    unreachable=0    failed=0   
+2016-11-05 16:01:21,971 p=9820 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-05 16:01:21,989 p=9820 u=deva |  TASK [setup] *******************************************************************
+2016-11-05 16:01:31,040 p=9820 u=deva |  ok: [54.148.238.107]
+2016-11-05 16:01:31,044 p=9820 u=deva |  TASK [print the host name] *****************************************************
+2016-11-05 16:01:35,787 p=9820 u=deva |  changed: [54.148.238.107]
+2016-11-05 16:01:35,791 p=9820 u=deva |  TASK [create new directory] ****************************************************
+2016-11-05 16:01:40,597 p=9820 u=deva |  changed: [54.148.238.107]
+2016-11-05 16:01:40,599 p=9820 u=deva |   [WARNING]: Consider using file module with state=directory rather than running mkdir
+
+2016-11-05 16:01:40,603 p=9820 u=deva |  PLAY RECAP *********************************************************************
+2016-11-05 16:01:40,604 p=9820 u=deva |  54.148.238.107             : ok=3    changed=2    unreachable=0    failed=0   
+2016-11-05 16:13:10,894 p=10154 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-05 16:13:10,912 p=10154 u=deva |  TASK [setup] *******************************************************************
+2016-11-05 16:13:21,118 p=10154 u=deva |  ok: [54.148.238.107]
+2016-11-05 16:13:21,122 p=10154 u=deva |  TASK [INstall git pakage] ******************************************************
+2016-11-05 16:13:26,879 p=10154 u=deva |  fatal: [54.148.238.107]: FAILED! => {"changed": false, "failed": true, "msg": "unsupported parameter for module: states"}
+2016-11-05 16:13:26,881 p=10154 u=deva |  	to retry, use: --limit @/home/deva/git/ansible_training/ansible/playbook/install_pakage.retry
+
+2016-11-05 16:13:26,882 p=10154 u=deva |  PLAY RECAP *********************************************************************
+2016-11-05 16:13:26,882 p=10154 u=deva |  54.148.238.107             : ok=1    changed=0    unreachable=0    failed=1   
+2016-11-05 16:14:04,640 p=10186 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-05 16:14:04,658 p=10186 u=deva |  TASK [setup] *******************************************************************
+2016-11-05 16:14:15,421 p=10186 u=deva |  ok: [54.148.238.107]
+2016-11-05 16:14:15,423 p=10186 u=deva |  TASK [INstall git pakage] ******************************************************
+2016-11-05 16:14:21,072 p=10186 u=deva |  fatal: [54.148.238.107]: FAILED! => {"changed": false, "failed": true, "msg": "unsupported parameter for module: names"}
+2016-11-05 16:14:21,074 p=10186 u=deva |  	to retry, use: --limit @/home/deva/git/ansible_training/ansible/playbook/install_pakage.retry
+
+2016-11-05 16:14:21,074 p=10186 u=deva |  PLAY RECAP *********************************************************************
+2016-11-05 16:14:21,074 p=10186 u=deva |  54.148.238.107             : ok=1    changed=0    unreachable=0    failed=1   
+2016-11-05 16:14:44,628 p=10215 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-05 16:14:44,648 p=10215 u=deva |  TASK [setup] *******************************************************************
+2016-11-05 16:14:50,615 p=10215 u=deva |  ok: [54.148.238.107]
+2016-11-05 16:14:50,617 p=10215 u=deva |  TASK [INstall git pakage] ******************************************************
+2016-11-05 16:14:56,757 p=10215 u=deva |  fatal: [54.148.238.107]: FAILED! => {"changed": false, "failed": true, "msg": "Failed to lock apt for exclusive operation"}
+2016-11-05 16:14:56,761 p=10215 u=deva |  	to retry, use: --limit @/home/deva/git/ansible_training/ansible/playbook/install_pakage.retry
+
+2016-11-05 16:14:56,761 p=10215 u=deva |  PLAY RECAP *********************************************************************
+2016-11-05 16:14:56,761 p=10215 u=deva |  54.148.238.107             : ok=1    changed=0    unreachable=0    failed=1   
+2016-11-05 16:16:08,483 p=10243 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-05 16:16:08,503 p=10243 u=deva |  TASK [setup] *******************************************************************
+2016-11-05 16:16:17,708 p=10243 u=deva |  ok: [54.148.238.107]
+2016-11-05 16:16:17,712 p=10243 u=deva |  TASK [INstall git pakage] ******************************************************
+2016-11-05 16:16:31,990 p=10243 u=deva |  changed: [54.148.238.107]
+2016-11-05 16:16:31,993 p=10243 u=deva |  PLAY RECAP *********************************************************************
+2016-11-05 16:16:31,993 p=10243 u=deva |  54.148.238.107             : ok=2    changed=1    unreachable=0    failed=0   
+2016-11-05 16:30:04,679 p=10399 u=deva |  ERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/home/deva/git/ansible_training/ansible/playbook/install_webcomponents.yml': line 7, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        apt: name={{ item }} state=present update-cache=yes
+	with_items:
+^ here
+
+2016-11-05 16:30:42,051 p=10405 u=deva |  ERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/home/deva/git/ansible_training/ansible/playbook/install_webcomponents.yml': line 7, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        apt: name={{item}} state=present update_cache=yes
+	with_items:
+^ here
+
+2016-11-05 16:32:06,078 p=10415 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-05 16:32:06,099 p=10415 u=deva |  TASK [setup] *******************************************************************
+2016-11-05 16:32:14,853 p=10415 u=deva |  ok: [54.148.238.107]
+2016-11-05 16:32:14,857 p=10415 u=deva |  TASK [install webcomponents] ***************************************************
+2016-11-05 16:32:33,140 p=10415 u=deva |  changed: [54.148.238.107] => (item=[u'nginx', u'postgresql', u'postgresql-contrib'])
+2016-11-05 16:32:33,145 p=10415 u=deva |  PLAY RECAP *********************************************************************
+2016-11-05 16:32:33,146 p=10415 u=deva |  54.148.238.107             : ok=2    changed=1    unreachable=0    failed=0   
+2016-11-07 16:27:07,690 p=14344 u=deva |  54.148.238.107 | SUCCESS | rc=0 >>
+Hello
+
+2016-11-07 16:27:51,215 p=14366 u=deva |  54.148.238.107 | FAILED | rc=1 >>
+mkdir: cannot create directory ‘Devaraju/test’: No such file or directory
+
+2016-11-07 16:28:20,801 p=14384 u=deva |  54.148.238.107 | FAILED | rc=1 >>
+mkdir: cannot create directory ‘/home/ubuntu/Devaraju/test’: No such file or directory
+
+2016-11-07 16:30:28,066 p=14409 u=deva |  54.148.238.107 | SUCCESS | rc=0 >>
+
+
+2016-11-07 16:37:48,046 p=14554 u=deva |  54.148.238.107 | SUCCESS | rc=0 >>
+
+
+2016-11-07 16:53:16,214 p=14578 u=deva |  54.148.238.107 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Shared connection to 54.148.238.107 closed.\r\n", 
+    "unreachable": true
+}
+2016-11-07 17:53:51,527 p=15676 u=deva |  54.148.238.107 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Shared connection to 54.148.238.107 closed.\r\n", 
+    "unreachable": true
+}
+2016-11-07 17:58:52,217 p=16216 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-07 17:58:52,236 p=16216 u=deva |  TASK [setup] *******************************************************************
+2016-11-07 17:59:00,994 p=16216 u=deva |  ok: [54.148.238.107]
+2016-11-07 17:59:00,997 p=16216 u=deva |  TASK [uninstall git pakage] ****************************************************
+2016-11-07 17:59:06,729 p=16216 u=deva |  fatal: [54.148.238.107]: FAILED! => {"changed": false, "failed": true, "msg": "Failed to lock apt for exclusive operation"}
+2016-11-07 17:59:06,730 p=16216 u=deva |  	to retry, use: --limit @/home/deva/git/ansible_training/ansible/playbook/uninstall_pkg.retry
+
+2016-11-07 17:59:06,731 p=16216 u=deva |  PLAY RECAP *********************************************************************
+2016-11-07 17:59:06,731 p=16216 u=deva |  54.148.238.107             : ok=1    changed=0    unreachable=0    failed=1   
+2016-11-07 18:02:03,596 p=16334 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-07 18:02:03,615 p=16334 u=deva |  TASK [setup] *******************************************************************
+2016-11-07 18:02:11,963 p=16334 u=deva |  ok: [54.148.238.107]
+2016-11-07 18:02:11,966 p=16334 u=deva |  TASK [uninstall git pakage] ****************************************************
+2016-11-07 18:02:22,559 p=16334 u=deva |  changed: [54.148.238.107]
+2016-11-07 18:02:22,562 p=16334 u=deva |  PLAY RECAP *********************************************************************
+2016-11-07 18:02:22,562 p=16334 u=deva |  54.148.238.107             : ok=2    changed=1    unreachable=0    failed=0   
+2016-11-07 18:23:10,409 p=19033 u=deva |  54.148.238.107 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-11-07 18:50:17,548 p=19488 u=deva |  ERROR! Extranous options or arguments
+2016-11-07 19:26:22,245 p=20237 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-07 19:26:22,263 p=20237 u=deva |  TASK [setup] *******************************************************************
+2016-11-07 19:26:30,748 p=20237 u=deva |  ok: [54.148.238.107]
+2016-11-07 19:26:30,754 p=20237 u=deva |  TASK [Instrall mysql in cloud] *************************************************
+2016-11-07 19:26:40,517 p=20237 u=deva |  fatal: [54.148.238.107]: FAILED! => {"changed": false, "failed": true, "msg": "No package matching 'mysql' is available"}
+2016-11-07 19:26:40,521 p=20237 u=deva |  	to retry, use: --limit @/home/deva/git/ansible_training/ansible/playbook/install_mysql.retry
+
+2016-11-07 19:26:40,522 p=20237 u=deva |  PLAY RECAP *********************************************************************
+2016-11-07 19:26:40,522 p=20237 u=deva |  54.148.238.107             : ok=1    changed=0    unreachable=0    failed=1   
+2016-11-07 19:29:30,308 p=20299 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-07 19:29:30,326 p=20299 u=deva |  TASK [setup] *******************************************************************
+2016-11-07 19:29:39,480 p=20299 u=deva |  ok: [54.148.238.107]
+2016-11-07 19:29:39,482 p=20299 u=deva |  TASK [Instrall mysql in cloud] *************************************************
+2016-11-07 19:30:01,450 p=20299 u=deva |  changed: [54.148.238.107]
+2016-11-07 19:30:01,453 p=20299 u=deva |  PLAY RECAP *********************************************************************
+2016-11-07 19:30:01,454 p=20299 u=deva |  54.148.238.107             : ok=2    changed=1    unreachable=0    failed=0   
+2016-11-07 19:36:40,412 p=20429 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-07 19:36:40,430 p=20429 u=deva |  TASK [setup] *******************************************************************
+2016-11-07 19:36:42,277 p=20429 u=deva |   [ERROR]: User interrupted execution
+
+2016-11-07 19:37:07,231 p=20443 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-07 19:37:07,249 p=20443 u=deva |  TASK [setup] *******************************************************************
+2016-11-07 19:37:15,551 p=20443 u=deva |  ok: [54.148.238.107]
+2016-11-07 19:37:15,556 p=20443 u=deva |  TASK [Instrall mysql in cloud] *************************************************
+2016-11-07 19:37:23,856 p=20443 u=deva |  changed: [54.148.238.107]
+2016-11-07 19:37:23,859 p=20443 u=deva |  PLAY RECAP *********************************************************************
+2016-11-07 19:37:23,860 p=20443 u=deva |  54.148.238.107             : ok=2    changed=1    unreachable=0    failed=0   
+2016-11-07 20:05:46,629 p=20810 u=deva |   [WARNING]: While constructing a mapping from /home/deva/git/ansible_training/ansible/playbook/install_mysql.yml, line 7, column 8, found a
+duplicate dict key (debconf). Using last defined value only.
+
+2016-11-07 20:05:46,700 p=20810 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-07 20:05:46,718 p=20810 u=deva |  TASK [setup] *******************************************************************
+2016-11-07 20:05:55,356 p=20810 u=deva |  ok: [54.148.238.107]
+2016-11-07 20:05:55,360 p=20810 u=deva |  TASK [set mysql root password before install] **********************************
+2016-11-07 20:06:00,699 p=20810 u=deva |  changed: [54.148.238.107]
+2016-11-07 20:06:00,705 p=20810 u=deva |  TASK [Install Mysql] ***********************************************************
+2016-11-07 20:06:08,854 p=20810 u=deva |  changed: [54.148.238.107] => (item=mysql-server)
+2016-11-07 20:06:16,934 p=20810 u=deva |  changed: [54.148.238.107] => (item=mysql-client)
+2016-11-07 20:06:24,879 p=20810 u=deva |  changed: [54.148.238.107] => (item=python-mysqldb)
+2016-11-07 20:06:24,880 p=20810 u=deva |  PLAY RECAP *********************************************************************
+2016-11-07 20:06:24,881 p=20810 u=deva |  54.148.238.107             : ok=3    changed=2    unreachable=0    failed=0   
+2016-11-07 20:14:34,607 p=20911 u=deva |   [WARNING]: While constructing a mapping from /home/deva/git/ansible_training/ansible/playbook/install_mysql.yml, line 7, column 8, found a
+duplicate dict key (debconf). Using last defined value only.
+
+2016-11-07 20:14:34,683 p=20911 u=deva |  PLAY [ec2] *********************************************************************
+2016-11-07 20:14:34,703 p=20911 u=deva |  TASK [setup] *******************************************************************
+2016-11-07 20:14:42,923 p=20911 u=deva |  ok: [54.148.238.107]
+2016-11-07 20:14:42,926 p=20911 u=deva |  TASK [set mysql root password before install] **********************************
+2016-11-07 20:14:48,117 p=20911 u=deva |  changed: [54.148.238.107]
+2016-11-07 20:14:48,122 p=20911 u=deva |  TASK [Install Mysql] ***********************************************************
+2016-11-07 20:14:56,431 p=20911 u=deva |  changed: [54.148.238.107] => (item=mysql-server)
+2016-11-07 20:15:04,258 p=20911 u=deva |  changed: [54.148.238.107] => (item=mysql-client)
+2016-11-07 20:15:12,090 p=20911 u=deva |  changed: [54.148.238.107] => (item=python-mysqldb)
+2016-11-07 20:15:12,093 p=20911 u=deva |  TASK [Secures the MySQL root user] *********************************************
+2016-11-07 20:15:17,224 p=20911 u=deva |  failed: [54.148.238.107] (item=127.0.0.1) => {"failed": true, "item": "127.0.0.1", "msg": "the python mysqldb module is required"}
+2016-11-07 20:15:22,122 p=20911 u=deva |  failed: [54.148.238.107] (item=localhost) => {"failed": true, "item": "localhost", "msg": "the python mysqldb module is required"}
+2016-11-07 20:15:26,750 p=20911 u=deva |  failed: [54.148.238.107] (item=::1) => {"failed": true, "item": "::1", "msg": "the python mysqldb module is required"}
+2016-11-07 20:15:26,755 p=20911 u=deva |  	to retry, use: --limit @/home/deva/git/ansible_training/ansible/playbook/install_mysql.retry
+
+2016-11-07 20:15:26,755 p=20911 u=deva |  PLAY RECAP *********************************************************************
+2016-11-07 20:15:26,756 p=20911 u=deva |  54.148.238.107             : ok=3    changed=2    unreachable=0    failed=1   
